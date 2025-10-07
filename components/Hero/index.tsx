@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-r from-[#0A1A2B] via-[#0D2A4B] to-[#12345E] pb-20 pt-28 md:pt-32 xl:pb-28 xl:pt-36">
+    <section className="relative overflow-hidden bg-gradient-to-r from-[#0A1A2B] via-[#0D2A4B] to-[#12345E] pb-24 pt-32 md:pt-36 xl:pb-32 xl:pt-40">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
           src="/images/brand/2.jpg"
           alt="SaaS Technology"
-          className="absolute top-0 left-0 w-full h-full object-cover"
+          className="absolute top-0 left-0 w-full h-full object-cover object-top"
         />
       </div>
 
@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/50 z-0" />
 
       <div className="relative z-10 mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-        <div className="flex h-[50vh] md:h-[55vh] flex-col justify-center items-center text-center">
+        <div className="flex h-[55vh] md:h-[60vh] flex-col justify-center items-center text-center">
           {/* Subtitle from left */}
           <motion.h4
             initial={{ opacity: 0, x: -50 }}
