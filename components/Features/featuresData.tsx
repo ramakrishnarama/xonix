@@ -36,13 +36,13 @@ const featuresData: Feature[] = [
     description:
       "Crafting high-quality web and mobile applications to deliver exceptional user experiences and drive business growth.",
   },
-  {
-    id: 6,
-    icon: "/images/icon/icon-06.svg",
-    title: "Regular Free Updates",
-    description:
-      "Stay ahead with our IoT solutions, offering regular free updates to ensure your devices are always optimized and secure.",
-  },
+  // {
+  //   id: 6,
+  //   icon: "/images/icon/icon-06.svg",
+  //   title: "Regular Free Updates",
+  //   description:
+  //     "Stay ahead with our IoT solutions, offering regular free updates to ensure your devices are always optimized and secure.",
+  // },
 ];
 
 export default featuresData;
